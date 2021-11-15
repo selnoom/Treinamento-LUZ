@@ -1,0 +1,15 @@
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\bin\Debug\net6.0\Operators.exe
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\bin\Debug\net6.0\Operators.deps.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\bin\Debug\net6.0\Operators.runtimeconfig.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\bin\Debug\net6.0\Operators.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\bin\Debug\net6.0\ref\Operators.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\bin\Debug\net6.0\Operators.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\Operators.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\Operators.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\Operators.AssemblyInfo.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\Operators.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\Operators.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\ref\Operators.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\Operators.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Operators\obj\Debug\net6.0\Operators.genruntimeconfig.cache
