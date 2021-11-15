@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\bin\Debug\net6.0\Conversions.exe
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\bin\Debug\net6.0\Conversions.deps.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\bin\Debug\net6.0\Conversions.runtimeconfig.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\bin\Debug\net6.0\Conversions.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\bin\Debug\net6.0\ref\Conversions.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\bin\Debug\net6.0\Conversions.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\obj\Debug\net6.0\Conversions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\obj\Debug\net6.0\Conversions.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\obj\Debug\net6.0\Conversions.AssemblyInfo.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\obj\Debug\net6.0\Conversions.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\obj\Debug\net6.0\Conversions.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\obj\Debug\net6.0\ref\Conversions.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\obj\Debug\net6.0\Conversions.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Conversions\obj\Debug\net6.0\Conversions.genruntimeconfig.cache

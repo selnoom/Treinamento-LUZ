@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\bin\Debug\net6.0\Variables.exe
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\bin\Debug\net6.0\Variables.deps.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\bin\Debug\net6.0\Variables.runtimeconfig.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\bin\Debug\net6.0\Variables.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\bin\Debug\net6.0\ref\Variables.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\bin\Debug\net6.0\Variables.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\obj\Debug\net6.0\Variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\obj\Debug\net6.0\Variables.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\obj\Debug\net6.0\Variables.AssemblyInfo.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\obj\Debug\net6.0\Variables.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\obj\Debug\net6.0\Variables.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\obj\Debug\net6.0\ref\Variables.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\obj\Debug\net6.0\Variables.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Variables\obj\Debug\net6.0\Variables.genruntimeconfig.cache
