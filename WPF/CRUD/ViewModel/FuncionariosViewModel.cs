@@ -53,35 +53,7 @@ namespace CRUD.ViewModel
             }
         }
 
-        public NovoCommand Novo { get; private set; } = new NovoCommand();
-        public class NovoCommand : BaseCommand
-        {
-            public override bool CanExecute(object parameter)
-            {
-                return parameter is FuncionariosViewModel;
-            }
-
-            public override void Execute(object parameter)
-            {
-                var viewModel = (FuncionariosViewModel)parameter;
-                var funcionario = new Model.Funcionario();
-                var maxId = 0;
-                if (viewModel.Funcionarios.Any())
-                {
-                    maxId = viewModel.Funcionarios.Max(f => f.Id);
-                }
-                funcionario.Id = maxId + 1;
-
-                var fw = new AddWindow();
-                fw.DataContext = funcionario;
-                fw.ShowDialog();
-
-                if (fw.DialogResult.HasValue && fw.DialogResult.Value)
-                {
-                    viewModel.Funcionarios.Add(funcionario);
-                    viewModel.FuncionarioSelecionado = funcionario;
-                }
-            }
-        }
+        // http://www.andrealveslima.com.br/blog/index.php/2017/11/15/exemplo-de-crud-no-wpf-com-mvvm/
+        //Tutorial que estou seguindo
     }
 }

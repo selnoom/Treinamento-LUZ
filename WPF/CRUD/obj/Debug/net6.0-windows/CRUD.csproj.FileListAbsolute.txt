@@ -20,3 +20,4 @@ C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\CRUD\obj\Debug\
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\CRUD\obj\Debug\net6.0-windows\CRUD.pdb
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\CRUD\obj\Debug\net6.0-windows\CRUD.genruntimeconfig.cache
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\CRUD\obj\Debug\net6.0-windows\AddWindow.g.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\CRUD\obj\Debug\net6.0-windows\AddWindow.baml
