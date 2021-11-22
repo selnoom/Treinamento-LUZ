@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\bin\Debug\net6.0\Arrays.exe
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\bin\Debug\net6.0\Arrays.deps.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\bin\Debug\net6.0\Arrays.runtimeconfig.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\bin\Debug\net6.0\Arrays.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\bin\Debug\net6.0\ref\Arrays.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\bin\Debug\net6.0\Arrays.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\obj\Debug\net6.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfo.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\obj\Debug\net6.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\obj\Debug\net6.0\Arrays.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\obj\Debug\net6.0\ref\Arrays.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\obj\Debug\net6.0\Arrays.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Arrays\obj\Debug\net6.0\Arrays.genruntimeconfig.cache
