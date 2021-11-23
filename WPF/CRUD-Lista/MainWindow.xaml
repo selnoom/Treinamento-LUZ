@@ -5,21 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CRUD_Lista"
         mc:Ignorable="d"
-        Title="Crud" Height="400" Width="600">
+        Title="Crud" Height="400" Width="800">
     <Grid Margin="10">
 
-        <TextBox Text="{Binding nome}" HorizontalAlignment="Left" Margin="57,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Height="24"/>
-        <Button Command="{Binding adicionar}" Content="Adicionar" Margin="57,139,394,182"/>
-        <Button Command="{Binding apagar}" Content="Apagar" Name="b2" Margin="57,187,394,136"/>
-        <Button Command="{Binding editar}" Content="Editar" HorizontalAlignment="Left" Margin="57,233,0,0" VerticalAlignment="Top" Height="28" Width="120"/>
-        <ListView ItemsSource="{Binding lista}" SelectedItem="{Binding value}" Name="ListView1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="198,80,198,118">
+        <TextBox Text="{Binding nome}" HorizontalAlignment="Left" Margin="14,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Height="24"/>
+        <Button Command="{Binding adicionar}" Content="Adicionar" Margin="14,139,646,182"/>
+        <Button Command="{Binding apagar}" Content="Apagar" Name="b2" Margin="14,187,646,136"/>
+        <Button Command="{Binding editar}" Content="Editar" HorizontalAlignment="Left" Margin="14,233,0,0" VerticalAlignment="Top" Height="28" Width="120"/>
+        <ListView ItemsSource="{Binding lista}" SelectedIndex="{Binding index}" SelectedItem="{Binding value}" Name="ListView1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="148,73,438,125">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <Label Content="Digitar Nome:" HorizontalAlignment="Left" Margin="57,80,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.528,0.565" Width="114" Height="30"/>
+        <Label Content="Digitar Nome:" HorizontalAlignment="Left" Margin="14,80,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.528,0.565" Width="114" Height="30"/>
+        <Button Content="Adcionar" HorizontalAlignment="Left" Margin="436,207,0,0" VerticalAlignment="Top"/>
+        <Button Content="Apagar" Command="{Binding apagar2}" HorizontalAlignment="Left" Margin="518,207,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="583,207,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="479,263,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <DataGrid ItemsSource="{Binding pokemons}" SelectedItem="{Binding PokemonSelecionado}"  AutoGenerateColumns="False" IsReadOnly="True" Margin="435,52,100,172">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Nome" Binding="{Binding Nome}"/>
+                <DataGridTextColumn Header="Apelido" Binding="{Binding Apelido}"/>
+                <DataGridTextColumn Header="Nível" Binding="{Binding Nivel}"/>
+                <DataGridTextColumn Header="Tipo" Binding="{Binding Tipo}"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 
 </Window>
