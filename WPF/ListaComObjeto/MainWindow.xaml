@@ -15,7 +15,11 @@
             <Button Command="{Binding adicionar}" Margin="3" Padding="3" Content="Novo"/>
             <Button Command="{Binding editar}" Margin="3" Padding="3" Content="Editar"/>
             <Button Command="{Binding apagar}" Margin="3" Padding="3" Content="Deletar"/>
-            <TextBox Text="{Binding PokemonNome}" Margin="3" Padding="3" Width="200"/>
+            <TextBox Text="{Binding PokemonId}" Margin="3" Padding="3" Width="100"/>
+            <TextBox Text="{Binding PokemonNome}" Margin="3" Padding="3" Width="100"/>
+            <TextBox Text="{Binding PokemonApelido}" Margin="3" Padding="3" Width="100"/>
+            <TextBox Text="{Binding PokemonNivel}" Margin="3" Padding="3" Width="100"/>
+            <TextBox Text="{Binding PokemonTipo}" Margin="3" Padding="3" Width="100"/>
         </StackPanel>
         <ScrollViewer Grid.Row="1"
                       HorizontalScrollBarVisibility="Visible"

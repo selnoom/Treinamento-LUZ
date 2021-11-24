@@ -17,7 +17,11 @@ namespace ListaComObjeto.ViewModel
 
         public Pokemon PokemonSelecionado { get; set; }
 
-        public Pokemon PokemonNome { get; set; }
+        public int PokemonId { get; set; }
+        public string PokemonNome { get; set; }
+        public string PokemonApelido { get; set; }
+        public int PokemonNivel { get; set; }
+        public string PokemonTipo { get; set; }
 
         public ICommand adicionar { get; private set; }
 
@@ -40,17 +44,33 @@ namespace ListaComObjeto.ViewModel
 
             adicionar = new RelayCommand((object param) =>
             {
+                pokemons.Add(new Pokemon
+                {
+                    Id = PokemonId,
+                    Nome = PokemonNome,
+                    Apelido = PokemonApelido,
+                    Nivel = PokemonNivel,
+                    Tipo = PokemonTipo
+                });
                 
             });
 
             apagar = new RelayCommand((object param) =>
             {
-                    pokemons.Remove(PokemonSelecionado);
+                pokemons.Remove(PokemonSelecionado);
             });
 
             editar = new RelayCommand((object param) =>
             {
-                //PokemonSelecionado.Nome = PokemonNome;
+                if (PokemonSelecionado != null)
+                {
+                    PokemonSelecionado = pokemons.FirstOrDefault();
+                }
+                PokemonSelecionado.Id = PokemonId;
+                PokemonSelecionado.Nome = PokemonNome;
+                PokemonSelecionado.Apelido = PokemonApelido;
+                PokemonSelecionado.Nivel = PokemonNivel;
+                PokemonSelecionado.Tipo = PokemonTipo;
             });
         }
 
