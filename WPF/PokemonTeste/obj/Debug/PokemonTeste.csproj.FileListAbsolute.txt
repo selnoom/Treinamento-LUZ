@@ -1,0 +1,16 @@
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\MainWindow.g.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\App.g.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste_MarkupCompile.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste_MarkupCompile.lref
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\bin\Debug\PokemonTeste.exe.config
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\bin\Debug\PokemonTeste.exe
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\bin\Debug\PokemonTeste.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\MainWindow.baml
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.g.resources
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.Properties.Resources.resources
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.exe
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.pdb

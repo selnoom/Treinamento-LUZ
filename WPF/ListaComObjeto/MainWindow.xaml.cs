@@ -26,5 +26,11 @@ namespace ListaComObjeto
             InitializeComponent();
             DataContext = new MainWindowViewModel();
         }
+
+        private void ButtonClicked(object sender, RoutedEventArgs e)
+        {
+            PokemonWindow PokemonWindow = new PokemonWindow();
+            PokemonWindow.ShowDialog();
+        }
     }
 }

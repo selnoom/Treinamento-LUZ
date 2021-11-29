@@ -1,0 +1,15 @@
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\bin\Debug\net6.0\Enum.exe
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\bin\Debug\net6.0\Enum.deps.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\bin\Debug\net6.0\Enum.runtimeconfig.json
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\bin\Debug\net6.0\Enum.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\bin\Debug\net6.0\ref\Enum.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\bin\Debug\net6.0\Enum.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\Enum.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\Enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\Enum.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\Enum.AssemblyInfo.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\Enum.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\Enum.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\ref\Enum.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\Enum.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\Básico\Non-Primitive-Types\Strings\Enum\obj\Debug\net6.0\Enum.genruntimeconfig.cache

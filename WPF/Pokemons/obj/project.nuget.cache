@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KvRl5ISKwCnNjb2xn/uuZjnHveMA/8TjS21fnKRTrYL45QPFpN+WM2L3u12P9WlZHcZEOaIfNf88zgEG3AcqOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrador\\Documents\\C#_Learning\\Treinamento-LUZ\\WPF\\Pokemons\\Pokemons.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

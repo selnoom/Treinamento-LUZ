@@ -1,0 +1,42 @@
+﻿<Window x:Class="PokemonTeste.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokemonTeste"
+        mc:Ignorable="d"
+        Title="Pokemons" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Command="{Binding adicionar}" Margin="3" Padding="3" Content="Novo"/>
+            <Button Command="{Binding editar}" Margin="3" Padding="3" Content="Editar"/>
+            <Button Command="{Binding apagar}" Margin="3" Padding="3" Content="Deletar"/>
+            <TextBox Text="{Binding PokemonPreenchido.Id}" Margin="3" Padding="3" Width="100"/>
+            <TextBox Text="{Binding PokemonPreenchido.Nome}" Margin="3" Padding="3" Width="100"/>
+            <TextBox Text="{Binding PokemonPreenchido.Apelido}" Margin="3" Padding="3" Width="100"/>
+            <TextBox Text="{Binding PokemonPreenchido.Nivel}" Margin="3" Padding="3" Width="100"/>
+            <TextBox Text="{Binding PokemonPreenchido.Tipo}" Margin="3" Padding="3" Width="100"/>
+            <!--<Button Click="ButtonClicked" Margin="3" Padding="3" Content="Nova Página"/>-->
+        </StackPanel>
+        <ScrollViewer Grid.Row="1"
+                      HorizontalScrollBarVisibility="Visible"
+                      VerticalScrollBarVisibility="Hidden">
+            <DataGrid SelectedItem="{Binding PokemonSelecionado}"
+                      ItemsSource="{Binding pokemonsLista}"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                    <DataGridTextColumn Header="Nome" Binding="{Binding Nome}"/>
+                    <DataGridTextColumn Header="Apelido" Binding="{Binding Apelido}"/>
+                    <DataGridTextColumn Header="Nível" Binding="{Binding Nivel}"/>
+                    <DataGridTextColumn Header="Tipo" Binding="{Binding Tipo}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+    </Grid>
+</Window>

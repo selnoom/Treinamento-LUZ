@@ -11,18 +11,13 @@ using System.Windows.Input;
 
 namespace ListaComObjeto.ViewModel
 {
-    public class MainWindowViewModel
+    public class MainWindowViewModel 
     {
+
         public ObservableCollection<Pokemon> pokemonsLista { get; set; }
 
         public Pokemon PokemonSelecionado { get; set; }
         public Pokemon PokemonPreenchido { get; set; }
-
-        /*public int PokemonId { get; set; }
-        public string PokemonNome { get; set; }
-        public string PokemonApelido { get; set; }
-        public int PokemonNivel { get; set; }
-        public string PokemonTipo { get; set; }*/
 
         public ICommand adicionar { get; private set; }
 
@@ -34,15 +29,16 @@ namespace ListaComObjeto.ViewModel
         {
             pokemonsLista = new ObservableCollection<Pokemon>();
             PokemonPreenchido = new Pokemon();
-            pokemonsLista.Add(new Pokemon
+
+            pokemonsLista.Add(new Pokemon()
             {
                 Id = 1,
                 Nome = "Bulbassaur",
-                Apelido = null,
+                Apelido = "",
                 Nivel = 1,
                 Tipo = "Grama"
             });
-
+            PokemonSelecionado = pokemonsLista.FirstOrDefault();
 
             adicionar = new RelayCommand((object param) =>
             {
@@ -71,12 +67,12 @@ namespace ListaComObjeto.ViewModel
                 if (PokemonSelecionado != null)
                 {
                     PokemonSelecionado.Id = PokemonPreenchido.Id;
-                    //PokemonSelecionado.Nome = PokemonPreenchido.Nome;
-                    pokemonsLista[0].Nome = PokemonPreenchido.Nome;
+                    pokemonsLista[0].Nome = "Charmander";
                     PokemonSelecionado.Apelido = PokemonPreenchido.Apelido;
                     PokemonSelecionado.Nivel = PokemonPreenchido.Nivel;
                     PokemonSelecionado.Tipo = PokemonPreenchido.Tipo;
                 }
+                pokemonsLista.Add(new Pokemon());
             });
         }
 
