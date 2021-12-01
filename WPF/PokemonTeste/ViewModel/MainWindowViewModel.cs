@@ -1,4 +1,6 @@
 ﻿using PokemonsTeste.Model;
+using PokemonTeste;
+using PokemonTeste.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -10,24 +12,22 @@ using System.Windows.Input;
 
 namespace PokemonsTeste.ViewModel.MainWindowViewModel
 {
-    public class MainWindowViewModel 
+    public class MainWindowViewModel : BaseNotify
     {
 
         public ObservableCollection<Pokemon> pokemonsLista { get; set; }
 
         public Pokemon PokemonSelecionado { get; set; }
-        public Pokemon PokemonPreenchido { get; set; }
-
         public ICommand adicionar { get; private set; }
 
         public ICommand apagar { get; private set; }
 
         public ICommand editar { get; private set; }
+        //public ICommand OK_Button { get; private set; }
 
         public MainWindowViewModel()
         {
             pokemonsLista = new ObservableCollection<Pokemon>();
-            PokemonPreenchido = new Pokemon();
 
             pokemonsLista.Add(new Pokemon()
             {
@@ -37,41 +37,67 @@ namespace PokemonsTeste.ViewModel.MainWindowViewModel
                 Nivel = 1,
                 Tipo = "Grama"
             });
+            pokemonsLista.Add(new Dragonite(149, 60, "Dragonite", "Draginho", "Dragão"));
             PokemonSelecionado = pokemonsLista.FirstOrDefault();
 
             adicionar = new RelayCommand((object param) =>
             {
-                pokemonsLista.Add(new Pokemon
+                PokemonWindow PW = new PokemonWindow();
+                Pokemon PokemonClone = new Pokemon();
+                PW.DataContext = PokemonClone;
+                PW.ShowDialog();
+                if (PW.DialogResult.HasValue && PW.DialogResult.Value)
                 {
-                    Id = PokemonPreenchido.Id,
-                    Nome = PokemonPreenchido.Nome,
-                    Apelido = PokemonPreenchido.Apelido,
-                    Nivel = PokemonPreenchido.Nivel,
-                    Tipo = PokemonPreenchido.Tipo
-                });
-                
+                    pokemonsLista.Add(PokemonClone);
+                }
+
             });
 
-            apagar = new RelayCommand((object param) =>
+        apagar = new RelayCommand((object param) =>
             {
                 if (PokemonSelecionado != null)
                 {
                     pokemonsLista.Remove(PokemonSelecionado);
                 }
                 
-            });
+            },
+            (object param) =>
+            {
+                return pokemonsLista.Count > 0;
+            }
+            );
 
             editar = new RelayCommand((object param) =>
             {
                 if (PokemonSelecionado != null)
                 {
-                    PokemonSelecionado.Id = PokemonPreenchido.Id;
-                    pokemonsLista[0].Nome = "Charmander";
-                    PokemonSelecionado.Apelido = PokemonPreenchido.Apelido;
-                    PokemonSelecionado.Nivel = PokemonPreenchido.Nivel;
-                    PokemonSelecionado.Tipo = PokemonPreenchido.Tipo;
+                    PokemonWindow PW = new PokemonWindow();
+                    Pokemon PokemonClone = new Pokemon(PokemonSelecionado);
+                    PW.DataContext = PokemonClone;
+                    PW.ShowDialog();
+                    if (PW.DialogResult.HasValue && PW.DialogResult.Value)
+                    {
+                        PokemonSelecionado.Id = PokemonClone.Id;
+                        PokemonSelecionado.Nivel = PokemonClone.Nivel;
+                        PokemonSelecionado.Nome = PokemonClone.Nome;
+                        PokemonSelecionado.Apelido = PokemonClone.Apelido;
+                        PokemonSelecionado.Tipo = PokemonClone.Tipo;
+                    }
                 }
             });
+
+            //OK_Button = new RelayCommand((object param) =>
+            //{
+            //    pokemonsLista.Add(new Pokemon()
+            //    {
+            //        Id = PokemonClone.Id,
+            //        Nome = PokemonClone.Nome,
+            //        Apelido = PokemonClone.Apelido,
+            //        Nivel = PokemonClone.Nivel,
+            //        Tipo = PokemonClone.Tipo
+            //    });
+            //    PW.DialogResult = null;
+            //});
         }
 
     }

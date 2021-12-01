@@ -27,9 +27,10 @@ namespace ListaComObjeto
             DataContext = new MainWindowViewModel();
         }
 
-        private void ButtonClicked(object sender, RoutedEventArgs e)
+        private void ButtonClicked(object sender, RoutedEventArgs e) //levar pro command
         {
             PokemonWindow PokemonWindow = new PokemonWindow();
+            PokemonWindow.DataContext = 
             PokemonWindow.ShowDialog();
         }
     }

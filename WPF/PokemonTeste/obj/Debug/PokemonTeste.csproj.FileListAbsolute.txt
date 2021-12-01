@@ -14,3 +14,5 @@ C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\ob
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.exe
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.pdb
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonWindow.g.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonWindow.baml

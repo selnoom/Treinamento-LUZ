@@ -1,4 +1,4 @@
-﻿using ListaComObjeto.ViewModel;
+﻿using PokemonsTeste.ViewModel.MainWindowViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ListaComObjeto
+namespace PokemonTeste
 {
     /// <summary>
     /// Interaction logic for PokemonWindow.xaml
@@ -23,12 +23,12 @@ namespace ListaComObjeto
         public PokemonWindow()
         {
             InitializeComponent();
-            //DataContext = new PokemonWindowViewModel();
+
         }
 
-        private void OK_Clicked(object sender, RoutedEventArgs e)
+        private void OK_Button(object sender, RoutedEventArgs e)
         {
-             DialogResult = false;
+            DialogResult = true;
         }
     }
 }

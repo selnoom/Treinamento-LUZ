@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ListaComObjeto
 {
-    public class BaseNotify
+    public class BaseNotify : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 

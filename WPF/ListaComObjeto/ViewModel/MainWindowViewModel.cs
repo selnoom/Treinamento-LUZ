@@ -29,6 +29,7 @@ namespace ListaComObjeto.ViewModel
         {
             pokemonsLista = new ObservableCollection<Pokemon>();
             PokemonPreenchido = new Pokemon();
+            
 
             pokemonsLista.Add(new Pokemon()
             {
@@ -66,11 +67,14 @@ namespace ListaComObjeto.ViewModel
             {
                 if (PokemonSelecionado != null)
                 {
-                    PokemonSelecionado.Id = PokemonPreenchido.Id;
-                    pokemonsLista[0].Nome = "Charmander";
-                    PokemonSelecionado.Apelido = PokemonPreenchido.Apelido;
-                    PokemonSelecionado.Nivel = PokemonPreenchido.Nivel;
-                    PokemonSelecionado.Tipo = PokemonPreenchido.Tipo;
+                    PokemonWindow PW = new PokemonWindow();
+                    PW.DataContext = PokemonSelecionado;
+                    PW.ShowDialog();
+                    //PokemonSelecionado.Id = PokemonPreenchido.Id;
+                    //pokemonsLista[0].Nome = "Charmander";
+                    //PokemonSelecionado.Apelido = PokemonPreenchido.Apelido;
+                    //PokemonSelecionado.Nivel = PokemonPreenchido.Nivel;
+                    //PokemonSelecionado.Tipo = PokemonPreenchido.Tipo;
                 }
                 pokemonsLista.Add(new Pokemon());
             });
