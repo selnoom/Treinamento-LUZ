@@ -13,7 +13,6 @@ namespace PokemonBanco.Model
         public void ShowMessage()
         {
             NpgsqlException ex = new NpgsqlException();
-
             MessageBox.Show(ex.Message);
         }
     }

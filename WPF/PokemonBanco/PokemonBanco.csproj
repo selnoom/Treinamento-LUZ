@@ -115,7 +115,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="connectionDB.cs" />
     <Compile Include="Model\DataBase.cs" />
     <Compile Include="Model\Message.cs" />
     <Compile Include="PokemonWindow.xaml.cs">
