@@ -19,24 +19,29 @@ namespace PokemonsTeste.Model
             
         }
 
-        public Pokemon(int id, int nivel, string nome, string apelido, string tipo)
+        public Pokemon(int _id, int _nivel, string _nome, string _apelido, string _tipo)
         {
-            Id = id;
-            Nivel = nivel;
-            Nome = nome;
-            Apelido = apelido;
-            Tipo = tipo;
+            this._id = _id;
+            this._nivel = _nivel;
+            this._nome = _nome;
+            this._apelido = _apelido;
+            this._tipo = _tipo;
         }
 
         //Construtor ou método para clonar pokemon
 
-        public Pokemon(Pokemon Clone)
+        private Pokemon(Pokemon P)
         {
-            Id=Clone.Id;
-            Nivel=Clone.Nivel;
-            Nome=Clone.Nome;
-            Apelido = Clone.Apelido;
-            Tipo=Clone.Tipo;
+            Id=P.Id;
+            Nivel=P.Nivel;
+            Nome=P.Nome;
+            Apelido = P.Apelido;
+            Tipo=P.Tipo;
+        }
+
+        public Pokemon Clone()
+        {
+            return new Pokemon(this);
         }
 
 

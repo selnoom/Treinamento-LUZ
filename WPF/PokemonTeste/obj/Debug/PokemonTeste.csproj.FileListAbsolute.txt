@@ -16,3 +16,8 @@ C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\ob
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste.pdb
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonWindow.g.cs
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonWindow.baml
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\bin\Debug\dbPokemon.mdf
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\bin\Debug\dbPokemon_log.ldf
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\PokemonTeste_Content.g.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\DataBaseWindow.g.cs
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonTeste\obj\Debug\DataBaseWindow.baml

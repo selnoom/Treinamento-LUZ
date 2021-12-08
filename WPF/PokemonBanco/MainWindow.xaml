@@ -1,0 +1,38 @@
+﻿<Window x:Class="PokemonBanco.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokemonBanco"
+        mc:Ignorable="d"
+       Title="Pokemons" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Command="{Binding adicionar}" Margin="3" Padding="3" Content="Novo"/>
+            <Button Command="{Binding editar}" Margin="3" Padding="3" Content="Editar"/>
+            <Button Command="{Binding apagar}" Margin="3" Padding="3" Content="Deletar"/>
+            <Button Command="{Binding abrirBanco}" Margin="3" Padding="3" Content="Banco de Dados"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="1"
+                      HorizontalScrollBarVisibility="Visible"
+                      VerticalScrollBarVisibility="Hidden">
+            <DataGrid Name="dg1"
+                      SelectedItem="{Binding PokemonSelecionado}"
+                      ItemsSource="{Binding db}"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                    <DataGridTextColumn Header="Nome" Binding="{Binding Nome}"/>
+                    <DataGridTextColumn Header="Apelido" Binding="{Binding Apelido}"/>
+                    <DataGridTextColumn Header="Nível" Binding="{Binding Nivel}"/>
+                    <DataGridTextColumn Header="Tipo" Binding="{Binding Tipo}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+    </Grid>
+</Window>

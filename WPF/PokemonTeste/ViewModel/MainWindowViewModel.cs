@@ -23,7 +23,8 @@ namespace PokemonsTeste.ViewModel.MainWindowViewModel
         public ICommand apagar { get; private set; }
 
         public ICommand editar { get; private set; }
-        //public ICommand OK_Button { get; private set; }
+
+        public ICommand abrirBanco { get; private set; }
 
         public MainWindowViewModel()
         {
@@ -72,7 +73,7 @@ namespace PokemonsTeste.ViewModel.MainWindowViewModel
                 if (PokemonSelecionado != null)
                 {
                     PokemonWindow PW = new PokemonWindow();
-                    Pokemon PokemonClone = new Pokemon(PokemonSelecionado);
+                    Pokemon PokemonClone = PokemonSelecionado.Clone();
                     PW.DataContext = PokemonClone;
                     PW.ShowDialog();
                     if (PW.DialogResult.HasValue && PW.DialogResult.Value)
@@ -86,18 +87,11 @@ namespace PokemonsTeste.ViewModel.MainWindowViewModel
                 }
             });
 
-            //OK_Button = new RelayCommand((object param) =>
-            //{
-            //    pokemonsLista.Add(new Pokemon()
-            //    {
-            //        Id = PokemonClone.Id,
-            //        Nome = PokemonClone.Nome,
-            //        Apelido = PokemonClone.Apelido,
-            //        Nivel = PokemonClone.Nivel,
-            //        Tipo = PokemonClone.Tipo
-            //    });
-            //    PW.DialogResult = null;
-            //});
+            abrirBanco = new RelayCommand((object param) =>
+            {
+                DataBaseWindow DW = new DataBaseWindow();
+                DW.ShowDialog();
+            });
         }
 
     }
