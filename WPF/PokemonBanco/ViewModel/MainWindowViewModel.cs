@@ -28,11 +28,49 @@ namespace PokemonBanco.ViewModel.MainWindowViewModel
             lista = new List<Pokemon>();
             DB_Selecao = new DataBaseSelecao();
             DBase = DB_Selecao.Carregar("Postgres");
-            pokemonsLista = new ObservableCollection<Pokemon>(DBase.Carregar(lista));
+            pokemonsLista = new ObservableCollection<Pokemon>(DBase.GetLista());
             PokemonTemporario = new Pokemon();
+            MeusComandos();
+        }
+        #region Propriedades
+        public ObservableCollection<Pokemon> pokemonsLista { get; set; }
+        public List<Pokemon> lista { get; set; }
+        public Pokemon PokemonSelecionado { get; set; }
+        public Pokemon PokemonTemporario
+        {
+            get { return _pokemonTemporario; }
+            set { _pokemonTemporario = value; }
+        }
+        public IDataBase DBase
+        {
+            get { return _dBase; }
+            set { _dBase = value; }
 
+        }
+        public PokemonWindow PW
+        {
+            get { return _pW; }
+            set { _pW = value; }
+        }
+        public Comandos Comm
+        {
+            get { return _comm; }
+            set { _comm = value; }
+        }
+        public DataBaseSelecao DB_Selecao { get; set; }
+        public ICommand adicionar { get; private set; }
 
-            adicionar = new RelayCommand((object param) => 
+        public ICommand apagar { get; private set; }
+
+        public ICommand editar { get; private set; }
+
+        public ICommand abrirBanco { get; private set; }
+
+        #endregion
+
+        private void MeusComandos()
+        {
+            adicionar = new RelayCommand((object param) =>
             {
                 Pokemon.Limpar(PokemonTemporario);
                 PW = new PokemonWindow();
@@ -73,38 +111,6 @@ namespace PokemonBanco.ViewModel.MainWindowViewModel
                 }
             });
         }
-        public ObservableCollection<Pokemon> pokemonsLista { get; set; }
-        public List<Pokemon> lista { get; set; }
-        public Pokemon PokemonSelecionado { get; set; }
-        public Pokemon PokemonTemporario
-        {
-            get { return _pokemonTemporario; }
-            set { _pokemonTemporario = value; }
-        }
-        public IDataBase DBase
-        {
-            get { return _dBase; }
-            set { _dBase = value; }
-
-        }
-        public PokemonWindow PW
-        {
-            get { return _pW; }
-            set { _pW = value; }
-        }
-        public Comandos Comm
-        {
-            get { return _comm; }
-            set { _comm = value; }
-        }
-        public DataBaseSelecao DB_Selecao { get; set; }
-        public ICommand adicionar { get; private set; }
-
-        public ICommand apagar { get; private set; }
-
-        public ICommand editar { get; private set; }
-
-        public ICommand abrirBanco { get; private set; }
 
     }
 }

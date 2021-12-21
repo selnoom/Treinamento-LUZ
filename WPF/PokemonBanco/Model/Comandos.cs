@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace PokemonBanco.Model
 {
@@ -16,8 +17,15 @@ namespace PokemonBanco.Model
         }
         public static void Adicionar(IDataBase DBase, ObservableCollection<Pokemon> pokemonsLista, Pokemon PokemonTemporario)
         {
-            DBase.Adicionar(PokemonTemporario);
-            pokemonsLista.Add(PokemonTemporario);
+            try
+            {
+                DBase.Adicionar(PokemonTemporario);
+                pokemonsLista.Add(PokemonTemporario);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         public static void Apagar(IDataBase DBase, ObservableCollection<Pokemon> pokemonsLista, Pokemon PokemonSelecionado)

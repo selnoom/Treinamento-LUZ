@@ -10,13 +10,14 @@ namespace PokemonBanco.Model.DataBase
     {
         private static Dictionary<string, IDataBase> Bancos;
 
-        public DataBaseSelecao()
+        public DataBaseSelecao(bool isDefault = true)
         {
-            Bancos = new Dictionary<string, IDataBase>()
+            Bancos = new Dictionary<string, IDataBase>();
+            if (isDefault)
             {
-                {"SQL", new DataBaseSQL()},
-                {"Postgres", new DataBasePostgres()}
-            };
+                Bancos.Add("SQL", new DataBaseSQL());
+                Bancos.Add("Postgres", new DataBasePostgres());
+            }
         }
 
         public IDataBase Carregar(string chave)

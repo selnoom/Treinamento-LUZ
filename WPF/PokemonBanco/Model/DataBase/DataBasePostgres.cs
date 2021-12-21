@@ -20,6 +20,7 @@ namespace PokemonBanco.Model.DataBase
         private NpgsqlCommand Command;
         private NpgsqlDataReader _reader;
         private Pokemon _pmon;
+        private List<Pokemon> lista;
         private string _connectionString = @"Server=127.0.0.1;Port=5555;User Id=nicholas;Password=1234;DataBase=nicholas;";
         public DataBasePostgres()
         {
@@ -27,6 +28,7 @@ namespace PokemonBanco.Model.DataBase
             Con = new NpgsqlConnection(ConnectionString);
             Command = new NpgsqlCommand();
             Command.Connection = Con;
+            Carregar();
         }
 
         public Message Msg
@@ -67,9 +69,10 @@ namespace PokemonBanco.Model.DataBase
 
 
         
-        public List<Pokemon> Carregar(List<Pokemon> lista)
+        private void Carregar()
         {
             Command.CommandText = "SELECT * FROM tbl_Pokemon";
+            lista = new List<Pokemon>();
             try
             {
                 Con.Open();
@@ -92,13 +95,20 @@ namespace PokemonBanco.Model.DataBase
             }
             catch (Exception ex)
             {
-                Msg.ShowMessage(ex);
+                MessageBox.Show(ex.Message);
             }
             finally
             {
-                Reader.Close();
+                if(Reader != null)
+                {
+                    Reader.Close();
+                }
                 Con.Close();
             }
+        }
+
+        public List<Pokemon> GetLista()
+        {
             return lista;
         }
         
@@ -112,7 +122,7 @@ namespace PokemonBanco.Model.DataBase
             }
             catch(Exception ex)
             {
-                Msg.ShowMessage(ex);
+                throw new Exception(ex.Message);
             }
             finally
             {

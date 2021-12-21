@@ -9,7 +9,7 @@ namespace PokemonBanco.Model.DataBase
     public interface IDataBase
     {
 
-        List<Pokemon> Carregar(List<Pokemon> lista);
+        List<Pokemon> GetLista();
         void Adicionar(Pokemon Pmon);
         void Editar(Pokemon Pmon);
         void Apagar(Pokemon Pmon);

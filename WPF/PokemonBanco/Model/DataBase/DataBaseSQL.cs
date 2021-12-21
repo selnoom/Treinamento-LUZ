@@ -96,7 +96,10 @@ namespace PokemonBanco.Model.DataBase
             }
             finally
             {
-                Reader.Close();
+                if (Reader != null)
+                {
+                    Reader.Close();
+                }
                 Con.Close();
             }
             return lista;
@@ -156,5 +159,9 @@ namespace PokemonBanco.Model.DataBase
             }
         }
 
+        public List<Pokemon> GetLista()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
