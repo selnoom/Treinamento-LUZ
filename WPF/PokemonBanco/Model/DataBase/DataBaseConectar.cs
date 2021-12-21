@@ -10,19 +10,19 @@ namespace PokemonBanco.Model.DataBase
 {
     public class DataBaseConectar
     {
-        //public IDataBase DataBase;
-        //public DataBaseConectar()
-        //{
+        public IDataBase DataBase;
+        public DataBaseConectar()
+        {
 
-        //}
-        //public static SqlConnection ConectarSQL(string conString)
-        //{
-        //    return new SqlConnection(conString);
-        //}
+        }
+        public static SqlConnection ConectarSQL(string conString)
+        {
+            return new SqlConnection(conString);
+        }
 
-        //public static NpgsqlConnection ConectarPostgres(string conString)
-        //{
-        //    return new NpgsqlConnection(conString);
-        //}
+        public static NpgsqlConnection ConectarPostgres(string conString)
+        {
+            return new NpgsqlConnection(conString);
+        }
     }
 }
