@@ -48,3 +48,9 @@ C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bi
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bin\Debug\System.ValueTuple.xml
 C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\obj\Debug\PokemonBanco.csproj.CopyComplete
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bin\Debug\Castle.Core.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bin\Debug\Moq.dll
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bin\Debug\Castle.Core.xml
+C:\Users\Administrador\Documents\C#_Learning\Treinamento-LUZ\WPF\PokemonBanco\bin\Debug\Moq.xml

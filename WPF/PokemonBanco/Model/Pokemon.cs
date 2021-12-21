@@ -1,6 +1,8 @@
-﻿using PokemonBanco;
+﻿using Npgsql;
+using PokemonBanco;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,6 +42,15 @@ namespace PokemonBanco.Model
         public Pokemon Clone()
         {
             return new Pokemon(this);
+        }
+
+        public static void Limpar(Pokemon P)
+        {
+            P.Id = 0;
+            P.Nome = "";
+            P.Apelido = "";
+            P.Nivel = 0;
+            P.Tipo = "";
         }
 
 

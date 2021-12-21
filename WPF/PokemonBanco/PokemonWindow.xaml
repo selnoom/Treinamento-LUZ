@@ -9,7 +9,8 @@
     <Grid Margin="3">
         <StackPanel Orientation="Vertical">
             <TextBlock Text="Id"/>
-            <TextBox Text="{Binding Id}"/>
+            <TextBox Text="{Binding Id}"
+                     Name="txt1"/>
             <TextBlock Text="Nome"/>
             <TextBox Text="{Binding Nome}"/>
             <TextBlock Text="Apelido"/>
@@ -17,7 +18,8 @@
             <TextBlock Text="Nivel"/>
             <TextBox Text="{Binding Nivel}"/>
             <TextBlock Text="Tipo"/>
-            <TextBox Text="{Binding Tipo}"/>
+            <ComboBox Text="{Binding Tipo}"
+                      Name="cbxTipo"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="5*"/>

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "739748bc-c287-46ab-b985-15c97e8c4348": {
+      "ProjectGuid": "739748bc-c287-46ab-b985-15c97e8c4348",
+      "DisplayName": "Moq_demo",
+      "ColorIndex": 0
+    },
+    "0c85dd4c-35a2-42d0-a54f-0c1117fd0921": {
+      "ProjectGuid": "0c85dd4c-35a2-42d0-a54f-0c1117fd0921",
+      "DisplayName": "ClubeOperacoesTeste",
+      "ColorIndex": 1
+    },
+    "0dd5f12c-c3ca-444f-b8b2-c2d41bcb08b4": {
+      "ProjectGuid": "0dd5f12c-c3ca-444f-b8b2-c2d41bcb08b4",
+      "DisplayName": "ClubeOperacoesTeste2",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

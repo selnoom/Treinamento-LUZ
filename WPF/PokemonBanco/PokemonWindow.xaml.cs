@@ -13,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using PokemonBanco.ViewModel.MainWindowViewModel;
 
 namespace PokemonBanco
 {
@@ -25,6 +26,7 @@ namespace PokemonBanco
         public PokemonWindow()
         {
             InitializeComponent();
+            cbxTipo.ItemsSource = Enum.GetValues(typeof(Model.Tipo)).Cast<Model.Tipo>();
         }
 
         private void OK_Button(object sender, RoutedEventArgs e)
